@@ -68,4 +68,3 @@ function getContentSlide() {
     });
     navitems[currentIndex].classList.add("selected");
 }
-

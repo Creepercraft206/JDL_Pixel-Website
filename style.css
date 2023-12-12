@@ -171,3 +171,49 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Responsive */
+@media(max-width: 340px) {
+    h1 {
+        font-size: 30px !important;
+    }
+}
+@media(max-width: 450px) {
+    h1 {
+        font-size: 50px !important;
+    }
+}
+@media(max-width: 600px) {
+    .right {
+        width: 100% !important;
+    }
+}
+@media(max-width: 770px) {
+    .project, .link {
+        margin: 5px !important;
+    }
+}
+
+@media(max-width: 900px) {
+    #nav {
+        display: none;
+    }
+}
+@media(max-width: 1190px) {
+    iframe {
+        position: absolute;
+        z-index: -1;
+        height: 90vh !important;
+    }
+    .right {
+        float: none;
+        width: 500px;
+        margin: 0;
+    }
+    .right > *{
+        padding: 20px;
+        background-color: rgba(22,22,22,0.3);
+        border: 2px solid rgb(22,22,22);
+        border-radius: 10px;
+    }
+}
